@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nature Flower Grass 天意花坊手作烘焙 — 專業佈置會場團隊、精緻浪漫花禮、手作溫度烘焙。價位公道實在，值得您信賴。" />
+  <title>Nature Flower Grass 天意花坊手作烘焙 | 精緻花藝 • 會場佈置 • 手作烘焙</title>
+  <!-- Google Fonts: Noto Sans TC & Plus Jakarta Sans / Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,600&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 背景環境柔光裝飾 -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- 毛玻璃導覽列 (Glassmorphism Navbar) -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="返回首頁">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 4C16 4 19.5 9.5 19.5 13.5C19.5 15.433 17.933 17 16 17C14.067 17 12.5 15.433 12.5 13.5C12.5 9.5 16 4 16 4Z" fill="currentColor" fill-opacity="0.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M26.5 11.5C26.5 11.5 22.5 16.5 18.8 17.7C17 18.3 15.1 17.3 14.5 15.5C13.9 13.7 14.9 11.8 16.7 11.2C20.4 10 26.5 11.5 26.5 11.5Z" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M5.5 11.5C5.5 11.5 9.5 16.5 13.2 17.7C15 18.3 16.9 17.3 17.5 15.5C18.1 13.7 17.1 11.8 15.3 11.2C11.6 10 5.5 11.5 5.5 11.5Z" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 17V28M16 28C16 24.5 20 22 23 22M16 28C16 25 12.5 23 9.5 23" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <div class="brand-text">
+          <span class="brand-en">Nature Flower Grass</span>
+          <span class="brand-zh">天意花坊手作烘焙</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="主要導覽">
+        <a href="#bento-services" class="nav-link">核心服務</a>
+        <a href="#floral-showcase" class="nav-link">花藝與佈置</a>
+        <a href="#bakery-showcase" class="nav-link">手作烘焙</a>
+        <a href="#contact-connect" class="nav-link">聯絡與導航</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="tel:052301576" class="btn btn-pill btn-nav-cta">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>立即預約</span>
+        </a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="開啟選單" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 頂部 Hero 區塊 -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content reveal-up">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>FLORAL ARTISTRY &amp; ARTISAN BAKERY</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-title-en">Nature Flower Grass</span>
+            <span class="hero-title-zh">天意花坊手作烘焙</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            佈置會場團隊 <span class="divider-dot" aria-hidden="true">•</span> 價位公道實在 <span class="divider-dot" aria-hidden="true">•</span> 值得您信賴
+          </p>
+
+          <p class="hero-description">
+            以自然花草的純粹美感，揉合每日新鮮出爐的手作烘焙溫度。無論是人生重要時刻的婚禮與會場佈置，或是傳遞心意的客製花禮與甜點，我們皆以真誠與職人精神為您細膩呈現。
+          </p>
+
+          <!-- 聯絡電話按鈕組 -->
+          <div class="hero-cta-group">
+            <a href="tel:052301576" class="btn btn-primary btn-phone" aria-label="撥打市話 05-2301576">
+              <span class="btn-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <span class="btn-phone-meta">
+                <small>門市專線（點擊通話）</small>
+                <strong>05-2301576</strong>
+              </span>
+            </a>
+
+            <a href="tel:0925188287" class="btn btn-secondary btn-phone" aria-label="撥打行動電話 0925-188287">
+              <span class="btn-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                  <line x1="12" y1="18" x2="12.01" y2="18"/>
+                </svg>
+              </span>
+              <span class="btn-phone-meta">
+                <small>行動專線（會場專案諮詢）</small>
+                <strong>0925-188287</strong>
+              </span>
+            </a>
+          </div>
+
+          <div class="hero-quick-links">
+            <a href="https://www.facebook.com/profile.php?id=100064006634280" target="_blank" rel="noopener noreferrer" class="text-link">
+              <span>Facebook 官方粉專</span>
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 15L15 5M15 5H7M15 5V13" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <span class="quick-link-sep">|</span>
+            <a href="https://share.google/IifvOUaWn8GoOq4aD" target="_blank" rel="noopener noreferrer" class="text-link">
+              <span>Google 地圖位置導航</span>
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 15L15 5M15 5H7M15 5V13" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 視覺美學主圖卡片群 -->
+        <div class="hero-visual reveal-up" style="--delay: 0.15s">
+          <div class="hero-visual-stage">
+            <div class="visual-card visual-card-main">
+              <img
+                src="images/floral-bouquet.jpg"
+                alt="天意花坊精緻鮮花盆花作品實拍"
+                loading="eager"
+              />
+              <div class="visual-card-overlay">
+                <span class="visual-tag">Bespoke Floral Design</span>
+                <p>嚴選鮮花盆花 • 會場美學設計</p>
+              </div>
+            </div>
+
+            <div class="visual-card visual-card-sub">
+              <img
+                src="images/artisan-bakery.jpg"
+                alt="天意花坊手作烘焙米香點心實拍"
+                loading="eager"
+              />
+              <div class="visual-card-overlay">
+                <span class="visual-tag">Artisan Bakery</span>
+                <p>嚴選食材 • 手作烘焙溫度</p>
+              </div>
+            </div>
+
+            <!-- 浮動毛玻璃信賴徽章 -->
+            <div class="floating-trust-pill">
+              <div class="trust-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="trust-title">專業會場佈置團隊</div>
+                <div class="trust-sub">透明公道報價 • 客製化規劃</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 核心功能與連結區塊（Bento Grid 網格佈局） -->
+    <section class="bento-section section-padding" id="bento-services">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">OUR CORE SERVICES &amp; CONNECT</span>
+          <h2 class="section-title">花藝美學、手作烘焙與即時聯繫</h2>
+          <p class="section-desc">
+            結合 Apple 簡約直覺的資訊體驗，帶您快速瀏覽「天意花坊手作烘焙」三大核心服務與官方社群導航。
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Bento Card 1: 精緻花藝與會場佈置 (Large Left Card) -->
+          <article class="bento-card bento-floral reveal-up" id="floral-showcase">
+            <div class="bento-card-content">
+              <div class="bento-top-bar">
+                <span class="bento-pill">01 / FLORAL &amp; VENUE STYLING</span>
+                <span class="bento-icon-badge" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M12 7.5a4.5 4.5 0 1 1 4.5 4.5M12 7.5A4.5 4.5 0 1 0 7.5 12M12 7.5V9m-4.5 3a4.5 4.5 0 1 0 4.5 4.5M7.5 12H9m3 4.5a4.5 4.5 0 1 0 4.5-4.5M12 16.5V15m4.5-3H15" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="12" cy="12" r="2"/>
+                  </svg>
+                </span>
+              </div>
+
+              <h3 class="bento-title">精緻花藝與會場佈置</h3>
+              <p class="bento-text">
+                從浪漫花束、開幕祝賀花籃，到大型婚禮殿堂、尾牙春酒、求婚派對與追思會場佈置。我們的專業佈置團隊傾聽您的需求，量身打造獨一無二的空間氛圍，堅持<strong>價位公道實在</strong>，讓每一分預算都化為令人驚豔的視覺感動。
+              </p>
+
+              <ul class="bento-feature-list">
+                <li>
+                  <span class="check-icon">✓</span>
+                  <div>
+                    <strong>浪漫花禮設計</strong>
+                    <span>客製鮮花束、永生乾燥花禮、盆花蘭花、開幕誌慶花柱</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <div>
+                    <strong>婚禮與主題會場佈置</strong>
+                    <span>迎賓背板設計、走道花藝、主桌花設計、氣球與燈光氛圍營造</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <div>
+                    <strong>商業與典禮空間規劃</strong>
+                    <span>品牌活動展場、節慶空間美化、莊嚴典雅儀式會場全案執行</span>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="bento-tag-row">
+                <span class="tag-chip">#婚禮會場佈置</span>
+                <span class="tag-chip">#浪漫求婚花束</span>
+                <span class="tag-chip">#開幕高架花籃</span>
+                <span class="tag-chip">#客製永生花禮</span>
+              </div>
+            </div>
+
+            <div class="bento-media-banner">
+              <img
+                src="images/venue-peacock-stand.jpg"
+                alt="天意花坊孔雀造型高架花籃與會場花藝佈置實拍"
+                class="img-pos-top"
+                loading="lazy"
+              />
+              <div class="bento-media-caption">
+                <span>實拍作品：氣派孔雀造型藝術高架花柱 • 專業會場佈置團隊</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Bento Card 2: 手作烘焙服務 (Top Right Card) -->
+          <article class="bento-card bento-bakery reveal-up" id="bakery-showcase" style="--delay: 0.1s">
+            <div class="bento-card-content">
+              <div class="bento-top-bar">
+                <span class="bento-pill">02 / HANDCRAFTED BAKERY</span>
+                <span class="bento-icon-badge" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 21h20M7 8v3M12 8v3M17 8v3M7 4h.01M12 4h.01M17 4h.01" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+
+              <h3 class="bento-title">手作烘焙服務</h3>
+              <p class="bento-text">
+                當馥郁花香遇上溫暖烘焙——我們嚴選天然食材、堅果與在地鮮味，不添加多餘負擔，親手製作每一份酥脆米香與烘焙糕點。提供日常點心、節慶伴手禮與活動茶會客製化服務。
+              </p>
+
+              <div class="bakery-highlights">
+                <div class="bakery-item">
+                  <span class="bakery-dot"></span>
+                  <div>
+                    <h4>招牌手作米香 • 堅果酥脆點心</h4>
+                    <p>融合南瓜子、櫻花蝦與飽滿米香，鹹甜酥脆、層次豐富，老少咸宜。</p>
+                  </div>
+                </div>
+                <div class="bakery-item">
+                  <span class="bakery-dot"></span>
+                  <div>
+                    <h4>手工烘焙餅乾 • 節慶伴手禮盒</h4>
+                    <p>婚禮小物、彌月禮盒、企業贈禮與節慶伴手禮，支持依預算客製配搭。</p>
+                  </div>
+                </div>
+                <div class="bakery-item">
+                  <span class="bakery-dot"></span>
+                  <div>
+                    <h4>花禮＋烘焙點心雙重驚喜組合</h4>
+                    <p>一站式訂購精緻鮮花禮與手作烘焙禮盒，讓收禮人同時擁有視覺與味蕾享受。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-bakery-preview">
+              <img
+                src="images/artisan-bakery.jpg"
+                alt="天意花坊手作烘焙堅果櫻花蝦米香點心實拍"
+                loading="lazy"
+              />
+            </div>
+          </article>
+
+          <!-- Bento Card 3: 快速聯絡與導航 (Bottom Right Card) -->
+          <article class="bento-card bento-connect reveal-up" id="contact-connect" style="--delay: 0.2s">
+            <div class="bento-card-content">
+              <div class="bento-top-bar">
+                <span class="bento-pill">03 / QUICK CONNECT &amp; MAP</span>
+                <span class="bento-icon-badge" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+
+              <h3 class="bento-title">快速聯絡與導航</h3>
+              <p class="bento-text">
+                歡迎透過 Facebook 粉絲專頁私訊觀看最新花藝與烘焙作品實拍，或開啟 Google 地圖一鍵導航親臨門市討論您的客製需求。
+              </p>
+
+              <!-- 社群與地圖真實連結按鈕 -->
+              <div class="connect-buttons-grid">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100064006634280"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="connect-action-card fb-card"
+                >
+                  <div class="connect-card-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                    </svg>
+                  </div>
+                  <div class="connect-card-info">
+                    <span class="connect-card-label">OFFICIAL FACEBOOK</span>
+                    <strong>前往 Facebook 粉絲專頁</strong>
+                    <small>瀏覽最新會場作品集、烘焙出爐動態與私訊詢問</small>
+                  </div>
+                  <span class="connect-card-arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a
+                  href="https://share.google/IifvOUaWn8GoOq4aD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="connect-action-card map-card"
+                >
+                  <div class="connect-card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/>
+                      <line x1="9" y1="3" x2="9" y2="18"/>
+                      <line x1="15" y1="6" x2="15" y2="21"/>
+                    </svg>
+                  </div>
+                  <div class="connect-card-info">
+                    <span class="connect-card-label">GOOGLE MAPS NAVIGATION</span>
+                    <strong>Google 地圖導航/查看位置</strong>
+                    <small>一鍵開啟路線規劃、查看門市實景與營業資訊</small>
+                  </div>
+                  <span class="connect-card-arrow" aria-hidden="true">↗</span>
+                </a>
+              </div>
+
+              <!-- 電話快速複製與撥打工具列 -->
+              <div class="direct-phone-strip">
+                <div class="phone-strip-item">
+                  <span class="strip-label">門市市話</span>
+                  <a href="tel:052301576" class="strip-number">05-2301576</a>
+                  <button type="button" class="copy-btn" data-copy="05-2301576" aria-label="複製電話 05-2301576">複製</button>
+                </div>
+                <div class="phone-strip-divider"></div>
+                <div class="phone-strip-item">
+                  <span class="strip-label">行動專線</span>
+                  <a href="tel:0925188287" class="strip-number">0925-188287</a>
+                  <button type="button" class="copy-btn" data-copy="0925-188287" aria-label="複製電話 0925-188287">複製</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 精選作品與服務分類互動展示區 -->
+    <section class="portfolio-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-eyebrow">CURATED HIGHLIGHTS</span>
+          <h2 class="section-title">為每一個重要時刻，注入溫柔儀式感</h2>
+          <p class="section-desc">點選分類快速探索我們最受歡迎的花藝佈置與手作烘焙項目。</p>
+        </div>
+
+        <!-- 互動篩選標籤 -->
+        <div class="filter-tabs reveal-up" role="tablist" aria-label="服務作品分類">
+          <button type="button" class="filter-tab active" data-filter="all" role="tab" aria-selected="true">全部項目</button>
+          <button type="button" class="filter-tab" data-filter="venue" role="tab" aria-selected="false">會場與婚禮佈置</button>
+          <button type="button" class="filter-tab" data-filter="bouquet" role="tab" aria-selected="false">浪漫花禮盆花</button>
+          <button type="button" class="filter-tab" data-filter="bakery" role="tab" aria-selected="false">手作烘焙甜點</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid">
+          <div class="portfolio-item reveal-up" data-category="venue">
+            <div class="portfolio-img-wrap">
+              <img src="images/venue-peacock-stand.jpg" alt="孔雀造型藝術高架花籃與慶典會場佈置實拍" class="img-pos-top" loading="lazy" />
+              <span class="portfolio-badge">會場與高架花籃</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>孔雀迎賓造型藝術高架花柱</h3>
+              <p>結合精緻鮮花、立體孔雀造型與柔粉紗裙層次設計，適合開幕誌慶、大型喜慶典禮與活動會場佈置。</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal-up" data-category="bouquet">
+            <div class="portfolio-img-wrap">
+              <img src="images/floral-bouquet.jpg" alt="浪漫粉嫩色系歐式鮮花盆花實拍" loading="lazy" />
+              <span class="portfolio-badge">精緻花禮盆花</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>浪漫粉韻歐式鮮花盆花</h3>
+              <p>嚴選當季繡球花、乒乓菊、玫瑰、洋桔梗與滿天星，飽滿圓潤的層次配置，傳遞最真摯溫柔的祝福。</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal-up" data-category="bakery">
+            <div class="portfolio-img-wrap">
+              <img src="images/artisan-bakery.jpg" alt="手作堅果櫻花蝦米香點心實拍" loading="lazy" />
+              <span class="portfolio-badge">手作烘焙點心</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>職人手作櫻花蝦堅果米香</h3>
+              <p>嚴選飽滿米粒搭配翠綠南瓜子與鮮香櫻花蝦，純手工製作、酥脆不黏牙，送禮自用皆宜的招牌烘焙點心。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 服務承諾與預訂流程 -->
+    <section class="promise-section section-padding">
+      <div class="container">
+        <div class="promise-banner reveal-up">
+          <div class="promise-step">
+            <span class="step-num">STEP 01</span>
+            <h3>電話或粉專諮詢</h3>
+            <p>撥打 05-2301576 / 0925-188287 或私訊 Facebook 粉專，告知活動日期、場合與預算需求。</p>
+          </div>
+          <div class="promise-step">
+            <span class="step-num">STEP 02</span>
+            <h3>專屬規劃與透明報價</h3>
+            <p>根據您的喜好風格提供花材建議、會場配置或烘焙品項搭配，價位公道實在、細項清楚。</p>
+          </div>
+          <div class="promise-step">
+            <span class="step-num">STEP 03</span>
+            <h3>準時交付與完美呈現</h3>
+            <p>當日新鮮花材製作與新鮮出爐烘焙，會場團隊準時進場佈置，值得您安心託付。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 頁尾 Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 4C16 4 19.5 9.5 19.5 13.5C19.5 15.433 17.933 17 16 17C14.067 17 12.5 15.433 12.5 13.5C12.5 9.5 16 4 16 4Z" fill="currentColor" fill-opacity="0.25" stroke="currentColor" stroke-width="1.75"/>
+              <path d="M26.5 11.5C26.5 11.5 22.5 16.5 18.8 17.7C17 18.3 15.1 17.3 14.5 15.5C13.9 13.7 14.9 11.8 16.7 11.2C20.4 10 26.5 11.5 26.5 11.5Z" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.75"/>
+              <path d="M5.5 11.5C5.5 11.5 9.5 16.5 13.2 17.7C15 18.3 16.9 17.3 17.5 15.5C18.1 13.7 17.1 11.8 15.3 11.2C11.6 10 5.5 11.5 5.5 11.5Z" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.75"/>
+              <path d="M16 17V28M16 28C16 24.5 20 22 23 22M16 28C16 25 12.5 23 9.5 23" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <div class="brand-text">
+            <span class="brand-en">Nature Flower Grass</span>
+            <span class="brand-zh">天意花坊手作烘焙</span>
+          </div>
+        </div>
+        <p class="footer-slogan">佈置會場團隊 • 價位公道實在 • 值得您信賴</p>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4>聯絡專線</h4>
+          <a href="tel:052301576">市話：05-2301576</a>
+          <a href="tel:0925188287">手機：0925-188287</a>
+        </div>
+        <div class="footer-col">
+          <h4>官方社群與位置</h4>
+          <a href="https://www.facebook.com/profile.php?id=100064006634280" target="_blank" rel="noopener noreferrer">Facebook 粉絲專頁 ↗</a>
+          <a href="https://share.google/IifvOUaWn8GoOq4aD" target="_blank" rel="noopener noreferrer">Google 地圖導航 ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear"></span> Nature Flower Grass 天意花坊手作烘焙. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- 複製成功提示 Toast -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite">
+    已複製電話號碼！
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
